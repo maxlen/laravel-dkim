@@ -1,0 +1,24 @@
+{
+    "name": "maxlen/laravel-dkim",
+    "description": "Laravel package for signing outgoing messages with DKIM.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaly Baev",
+            "email": "dj@vitalybaev.ru"
+        },
+        {
+            "name": "Maxim Gavrilenko",
+            "email": "maxlenash@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "laravel/framework": "^5.2|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "maxlen\\LaravelDkim\\": "src/"
+        }
+    }
+}
