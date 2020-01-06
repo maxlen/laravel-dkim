@@ -1,10 +1,10 @@
-# Laravel 5 DKIM
+# Laravel DKIM
 Package, that allows sign emails with DKIM.
 
 ## Installation
 1. Install via Composer:
 ```
-composer require vitalybaev/laravel5-dkim
+composer require maxlen/laravel5-dkim
 ```
 2. In `config/app.php` comment line with original service provider:
 ```
@@ -12,7 +12,7 @@ composer require vitalybaev/laravel5-dkim
 ```
 3. In `config/app.php` add following line to provider's section:
 ```
-Vitalybaev\LaravelDkim\DkimMailServiceProvider::class,
+maxlen\LaravelDkim\DkimMailServiceProvider::class,
 ```
 4. Fill your settings in `config/mail.php`:
 ```
@@ -28,7 +28,7 @@ Vitalybaev\LaravelDkim\DkimMailServiceProvider::class,
 
 > The MIT License
 >  
->  Copyright (c) 2016 Vitaly Baev
+>  Copyright (c) 2020 Maxim Gavrilenko
 >  
 >  Permission is hereby granted, free of charge, to any person obtaining a copy
 >  of this software and associated documentation files (the "Software"), to deal
