@@ -13,7 +13,7 @@ class DkimMailServiceProvider extends MailServiceProvider
      */
     public function register()
     {
-        //parent::registerSwiftMailer();
+        parent::registerIlluminateMailer();
         parent::registerMarkdownRenderer();
 
         $this->app->singleton('mailer', function ($app) {
